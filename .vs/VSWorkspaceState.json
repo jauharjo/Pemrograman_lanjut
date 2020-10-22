@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\03_TheNextCar",
-    "\\03_TheNextCar\\TheNextCar",
-    "\\03_TheNextCar\\TheNextCar\\Controller",
-    "\\03_TheNextCar\\TheNextCar\\Model"
+    "\\03_TheNextCar"
   ],
-  "SelectedNode": "\\03_TheNextCar\\TheNextCar\\Model\\AccuBattery.cs",
+  "SelectedNode": "\\03_TheNextCar\\TheNextCar",
   "PreviewInSolutionExplorer": false
 }
