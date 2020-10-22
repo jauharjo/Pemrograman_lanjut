@@ -1,0 +1,14 @@
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\MainWindow.g.cs
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\App.g.cs
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar_MarkupCompile.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar_MarkupCompile.lref
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\bin\Debug\TheNextCar.exe.config
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\bin\Debug\TheNextCar.exe
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\bin\Debug\TheNextCar.pdb
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\MainWindow.baml
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.g.resources
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.Properties.Resources.resources
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.csproj.GenerateResource.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.csproj.CoreCompileInputs.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.exe
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.pdb
