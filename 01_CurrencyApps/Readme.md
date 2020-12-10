@@ -1,6 +1,6 @@
 # Currency Apps
 
-Aplikasi ini berfungsi untuk mengkonversi dari mata uang US Dollar ke Rupiah dengan $1 = Rp. 15000
+Aplikasi ini berfungsi untuk mengkonversi dari mata uang US Dollar ke Rupiah, dengan kurs $1 = Rp. 15000
 
 ## Fungsionalitas
 - User dapat memasukkan Angka
