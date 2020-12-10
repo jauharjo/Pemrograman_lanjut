@@ -61,6 +61,12 @@ namespace FreshFruit
             MessageBox.Show(message, "Warning !");
         }
 
-        
+        private void ListBoxBucket_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            Jo.removeFruit(anggur);
+            Jo.removeFruit(apel);
+            Jo.removeFruit(pisang);
+            Jo.removeFruit(jeruk);
+        }
     }
 }

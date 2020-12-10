@@ -17,7 +17,7 @@
         <Button x:Name="ButtonAddApel" Content="Add" HorizontalAlignment="Left" Margin="249,5,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="OnButtonAddApelClicked"/>
         <Button x:Name="ButtonAddPisang" Content="Add" HorizontalAlignment="Left" Margin="65,165.875,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="OnButtonAddPisangClicked"/>
         <Button x:Name="ButtonAddJeruk" Content="Add" HorizontalAlignment="Left" Margin="249,165.875,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="OnButtonAddJerukClicked"/>
-        <ListBox x:Name="ListBoxBucket" HorizontalAlignment="Left" Height="203" Margin="390,126,0,0" VerticalAlignment="Top" Width="286" Grid.RowSpan="2">
+        <ListBox x:Name="ListBoxBucket" HorizontalAlignment="Left" Height="203" Margin="390,126,0,0" VerticalAlignment="Top" Width="286" Grid.RowSpan="2" SelectionChanged="ListBoxBucket_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="0,2">

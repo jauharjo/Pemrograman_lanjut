@@ -12,3 +12,17 @@ F:\SEM 3\Pemrograman Lanjut\Latihan\02\CashierApps\obj\Debug\CashierApps.csproj.
 F:\SEM 3\Pemrograman Lanjut\Latihan\02\CashierApps\obj\Debug\CashierApps.csproj.CoreCompileInputs.cache
 F:\SEM 3\Pemrograman Lanjut\Latihan\02\CashierApps\obj\Debug\CashierApps.exe
 F:\SEM 3\Pemrograman Lanjut\Latihan\02\CashierApps\obj\Debug\CashierApps.pdb
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\bin\Debug\CashierApps.exe.config
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\bin\Debug\CashierApps.exe
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\bin\Debug\CashierApps.pdb
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.csprojAssemblyReference.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\MainWindow.baml
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\MainWindow.g.cs
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\App.g.cs
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps_MarkupCompile.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.g.resources
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.Properties.Resources.resources
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.csproj.GenerateResource.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.csproj.CoreCompileInputs.cache
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.exe
+F:\SEM 3\Pemrograman Lanjut\Latihan\02_CashierApps\CashierApps\obj\Debug\CashierApps.pdb

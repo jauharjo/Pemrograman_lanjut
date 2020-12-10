@@ -12,3 +12,4 @@ F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCa
 F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.csproj.CoreCompileInputs.cache
 F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.exe
 F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.pdb
+F:\SEM 3\Pemrograman Lanjut\Latihan\03_TheNextCar\TheNextCar\obj\Debug\TheNextCar.csprojAssemblyReference.cache
