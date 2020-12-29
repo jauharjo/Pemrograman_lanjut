@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\05_CouponWithoutOCP"
+    "\\07_RegisterPage",
+    "\\07_RegisterPage\\RegisterPage",
+    "\\07_RegisterPage\\RegisterPage\\Controller",
+    "\\07_RegisterPage\\RegisterPage\\Model"
   ],
-  "SelectedNode": "\\05_CouponWithoutOCP\\05_CouponWithOCP.sln",
+  "SelectedNode": "\\07_RegisterPage\\RegisterPage\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

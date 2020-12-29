@@ -1,0 +1,28 @@
+﻿<Window x:Class="RegisterPage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegisterPage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="360">
+    <Grid>
+        <Label Content="Formulir Pendaftaran" HorizontalAlignment="Left" Margin="33,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Nama" HorizontalAlignment="Left" Margin="25,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Jenis Kelamin" HorizontalAlignment="Left" Margin="25,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="25,151,0,0" VerticalAlignment="Top"/>
+        <Label Content="No. Whatsaap" HorizontalAlignment="Left" Margin="25,182,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxNama" HorizontalAlignment="Left" Height="23" Margin="156,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Height="23" Margin="156,155,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="textBoxWhatsaap" HorizontalAlignment="Left" Height="23" Margin="156,186,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
+        <RadioButton x:Name="radioButtonLK" Content="Laki-laki" HorizontalAlignment="Left" Margin="154,127,0,0" VerticalAlignment="Top" />
+        <RadioButton x:Name="radioButtonPR" Content="Perempuan" HorizontalAlignment="Left" Margin="242,127,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kirim Verifikasi Ke :" HorizontalAlignment="Left" Margin="25,225,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxEmail" Content="E-mail" HorizontalAlignment="Left" Margin="156,231,0,0" VerticalAlignment="Top" Checked="checkBoxEmailChecked" Unchecked="checkBoxEmailUnchecked"/>
+        <CheckBox x:Name="checkBoxWhatsaap" Content="Whatsaap" HorizontalAlignment="Left" Margin="156,257,0,0" VerticalAlignment="Top" Checked="checkBoxWhatsaapChecked" Unchecked="checkBoxWhatsaapUnchecked"/>
+        <Label x:Name="labelEmail" Content="" HorizontalAlignment="Left" Margin="33,335,0,0" VerticalAlignment="Top" Width="261"/>
+        <Label x:Name="labelWhatsaap" Content="" HorizontalAlignment="Left" Margin="33,390,0,0" VerticalAlignment="Top" Width="261"/>
+        <Button x:Name="ButtonDaftar" Content="Daftar" HorizontalAlignment="Left" Margin="69,294,0,0" VerticalAlignment="Top" Width="225" Height="26" FontSize="14" Click="ButtonDaftarClicked" />
+
+    </Grid>
+</Window>
