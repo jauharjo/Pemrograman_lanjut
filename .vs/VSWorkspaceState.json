@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\07_RegisterPage",
     "\\07_RegisterPage\\RegisterPage",
     "\\07_RegisterPage\\RegisterPage\\Controller",
-    "\\07_RegisterPage\\RegisterPage\\Model"
+    "\\07_RegisterPage\\RegisterPage\\Model",
+    "\\08_Responsi_UAS",
+    "\\08_Responsi_UAS\\JoCashierApps"
   ],
-  "SelectedNode": "\\07_RegisterPage\\RegisterPage\\MainWindow.xaml",
+  "SelectedNode": "\\08_Responsi_UAS\\08_Responsi_UAS.sln",
   "PreviewInSolutionExplorer": false
 }

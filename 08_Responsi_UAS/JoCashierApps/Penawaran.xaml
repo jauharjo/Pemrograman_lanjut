@@ -1,0 +1,35 @@
+﻿<Window x:Class="JoCashierApps.Penawaran"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoCashierApps"
+        mc:Ignorable="d"
+        Title="Penawaran" Height="480" Width="360">
+    <Grid HorizontalAlignment="Left" Width="350">
+        <ListBox x:Name="listPenawaran" Margin="20,95,0,20" MouseLeftButtonUp="OnlistPenawaranClicked" HorizontalAlignment="Left" Width="310">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="255" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding item}" TextAlignment="Left" FontSize="16"/>
+                        <TextBlock Grid.Row="1" Text="{Binding price}"  TextAlignment="Right" FontSize="16"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="List Menu" HorizontalAlignment="Left" Margin="123,12,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="36" Width="109" FontSize="20"/>
+        <ListBox HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="310" Margin="20,60,0,0" RenderTransformOrigin="0.498,0.832">
+            <Grid Margin="0,2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Item" TextAlignment="Center" FontSize="16" Margin="0,-2,70,1" Grid.ColumnSpan="2"/>
+                <TextBlock Grid.Column="1" Text="Penawaran" TextAlignment="Center" FontSize="16" Margin="87,-2,-82,2" HorizontalAlignment="Left" Width="95"/>
+            </Grid>
+        </ListBox>
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿<Window x:Class="JoCashierApps.Promo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoCashierApps"
+        mc:Ignorable="d"
+        Title="Promo" Height="360" Width="360">
+    <Grid HorizontalAlignment="Left" Width="350">
+        <ListBox x:Name="listBoxDaftarPromo" Margin="25,64,0,20" MouseLeftButtonUp="onlistBoxDaftarPromoClicked" HorizontalAlignment="Left" Width="300">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300" />
+
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding voucher}" TextAlignment="Left" FontSize="14"/>
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="List Voucher" HorizontalAlignment="Left" Margin="115,15,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="35" Width="120" RenderTransformOrigin="0.5,0.5" FontSize="18">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.36"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+    </Grid>
+</Window>
