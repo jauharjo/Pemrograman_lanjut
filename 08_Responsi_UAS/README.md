@@ -1,7 +1,7 @@
 # Cahsier Apps KaJo
-> **Nur Jauhar Muslih  
+> **Nur Jauhar Muslih 
 
-19.11.2832
+> 19.11.2832** 
 ## About This Apps
 Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungsionalitas dan menggunakan konsep MVC
 
