@@ -1,7 +1,7 @@
 # Cahsier Apps KaJo
->**Nur Jauhar Muslih enter
+> **Nur Jauhar Muslih  
+
 19.11.2832
-19-S1IF-04**
 ## About This Apps
 Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungsionalitas dan menggunakan konsep MVC
 
@@ -29,7 +29,6 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
   ``` private void calculateSubTotal()
         {
             double subTotal = 0;
-            
             foreach (Item item in itemkeranjangBelanja)
             {
                 subTotal += item.price;
@@ -41,7 +40,6 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
   ``` public void updateTotal(double subTotal)
         {
             double promo = 0;
-
             foreach (Promo promos in promodigunakan)
             {
                 if (promos.potongan == 1)
@@ -61,9 +59,7 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
                 else if (promos.potongan == 3)
                 {
                     promo = 10000;
-                    
                 }
-                
             }
 
             double total = subTotal - promo;
@@ -84,7 +80,6 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
             Item penawaran5 = new Item("Fried Frice Special", 45000);
             Item penawaran6 = new Item("Watermelon Juice", 25000);
             Item penawaran7 = new Item("Lemon Squash", 30000);
-
             penawaranController.addItem(penawaran1);
             penawaranController.addItem(penawaran2);
             penawaranController.addItem(penawaran3);
@@ -94,7 +89,6 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
             penawaranController.addItem(penawaran7);
 
             listpenawaran.Items.Refresh();
-
         }
 ```
   - pada `Promo.xaml.cs` terdapat penambahan promo untuk dijadikan list yaitu pada
@@ -104,7 +98,6 @@ Merupakan Aplikasi Kasir dari sebuah studi kasus dengan ketentuan dibagian fungs
             Model.Promo promo1 = new Model.Promo("Promo Awal tahun Diskon 25 % ", 1);
             Model.Promo promo2 = new Model.Promo("Promo Tebus Murah Diskon 30 % atau maksimal 30.000", 2);
             Model.Promo promo3 = new Model.Promo("Promo Natal Potongan 10000", 3);
-
             promoController.addPromo(promo1);
             promoController.addPromo(promo2);
             promoController.addPromo(promo3);
